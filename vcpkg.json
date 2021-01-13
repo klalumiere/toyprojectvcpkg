@@ -4,13 +4,16 @@
 
     "$dependencies-turned-off": [
         {
-            "name": "personaldependency"
+            "name": "personaldependency",
+            "version-semver": "old",
+            "port-version": 0
         }
     ],
 
     "dependencies": [
         {
-            "name": "zlib"
+            "name": "zlib",
+            "$version=": "1.2.11-2"
         }
     ]
 }
