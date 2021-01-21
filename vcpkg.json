@@ -2,18 +2,15 @@
     "name": "toyprojectvcpkg",
     "version-semver": "8.1.2",
 
-    "$dependencies-turned-off": [
-        {
-            "name": "personaldependency",
-            "version-semver": "old",
-            "port-version": 0
-        }
-    ],
-
     "dependencies": [
         {
             "name": "zlib",
             "$version=": "1.2.11-2"
+        },
+        {
+            "name": "personaldependency",
+            "version-semver>=": 1.0,
+            "port-version": 0
         }
     ]
 }

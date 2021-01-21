@@ -2,11 +2,11 @@
     "default-registry": {
         "kind": "builtin"
     },
-    "$registries": [
+    "registries": [
         {
             "kind": "git",
             "repository": "https://github.com/klalumiere/vcpkg-overlays",
-            "scopes": [ "toyprojectvcpkg" ]
+            "packages": [ "personaldependency" ]
         }
     ]
 }
