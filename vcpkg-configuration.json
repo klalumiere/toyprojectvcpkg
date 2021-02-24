@@ -1,12 +1,16 @@
 {
     "default-registry": {
-        "kind": "builtin"
+        "kind": "builtin",
+        "baseline": "c235296c65527a8fa299348c49cc3011e4bbdf51"
     },
     "registries": [
         {
             "kind": "git",
             "repository": "https://github.com/klalumiere/vcpkg-overlays",
-            "packages": [ "personaldependency" ]
+            "baseline": "0ca8a0823dc62afde4e683fb1973cb272fa60cbf",
+            "packages": [
+                "personaldependency"
+            ]
         }
     ]
 }

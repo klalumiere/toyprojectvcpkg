@@ -5,12 +5,12 @@
     "dependencies": [
         {
             "name": "zlib",
-            "$version=": "1.2.11-2"
+            "$version-string": "1.2.11-6"
         },
         {
             "name": "personaldependency",
-            "version-semver>=": 1.0,
-            "port-version": 0
+            "$version-semver>=": "1.0",
+            "$port-version": 0
         }
     ]
 }
