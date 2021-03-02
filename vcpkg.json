@@ -5,12 +5,17 @@
     "dependencies": [
         {
             "name": "zlib",
-            "$version-string": "1.2.11-6"
+            "version>=": "1.2.11#9"
         },
         {
             "name": "personaldependency",
-            "$version-semver>=": "1.0",
-            "$port-version": 0
+            "version>=": "1.0.0"
         }
+    ],
+
+    "builtin-baseline": "c235296c65527a8fa299348c49cc3011e4bbdf51",
+
+    "overrides": [
+        { "name": "zlib", "version-string": "1.2.11-6" }
     ]
 }
