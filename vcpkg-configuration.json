@@ -7,7 +7,7 @@
         {
             "kind": "git",
             "repository": "https://github.com/klalumiere/vcpkg-overlays",
-            "baseline": "0ca8a0823dc62afde4e683fb1973cb272fa60cbf",
+            "baseline": "b00f983cb29d0c5e50277c3afed712b946db7677",
             "packages": [
                 "personaldependency"
             ]
